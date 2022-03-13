@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/gradient_background_main">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageView
+        android:layout_width="310dp"
+        android:layout_height="600dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/rectangle_reg_white" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo_transparent" />
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:hint="email"
+        android:textColorHint="#dcdcdc"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:hint="password"
+        android:textColorHint="#dcdcdc"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="#f0f0f0"
+        android:stateListAnimator="@null"
+        android:text="Login"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/fgtpasswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="570dp"
+        android:text="Forgot password?"
+        android:textColor="#a3a3a3"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/noacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account yet?"
+        android:textSize="16dp"
+        android:textColor="#a3a3a3"
+        android:layout_marginTop="605dp"
+        android:layout_marginLeft="70dp"/>
+
+</RelativeLayout>
